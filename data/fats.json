@@ -1,0 +1,104 @@
+{
+  "fats": [
+    {
+      "id": "cream_cheese",
+      "name": "Cream Cheese",
+      "fatPer100g": 34.0,
+      "proteinPer100g": 6.0,
+      "carbsPer100g": 4.1,
+      "caloriesPer100g": 342,
+      "notes": "Stabilizer + emulsifier - whisk with sugar to paste first",
+      "category": "dairy_fat"
+    },
+    {
+      "id": "egg_yolk",
+      "name": "Egg Yolk",
+      "fatPer100g": 27.0,
+      "proteinPer100g": 16.0,
+      "carbsPer100g": 3.6,
+      "caloriesPer100g": 322,
+      "notes": "Emulsifier (lecithin) - cook to 80°C for custard bases",
+      "category": "dairy_fat"
+    },
+    {
+      "id": "butter",
+      "name": "Butter (Unsalted)",
+      "fatPer100g": 81.0,
+      "proteinPer100g": 0.9,
+      "carbsPer100g": 0.1,
+      "caloriesPer100g": 717,
+      "notes": "Use sparingly - high fat content",
+      "category": "dairy_fat"
+    },
+    {
+      "id": "coconut_oil_refined",
+      "name": "Coconut Oil (Refined)",
+      "fatPer100g": 100.0,
+      "proteinPer100g": 0,
+      "carbsPer100g": 0,
+      "caloriesPer100g": 862,
+      "notes": "For Stracciatella method - creates snappy chocolate shards",
+      "category": "plant_fat"
+    },
+    {
+      "id": "cocoa_butter",
+      "name": "Cocoa Butter",
+      "fatPer100g": 100.0,
+      "proteinPer100g": 0,
+      "carbsPer100g": 0,
+      "caloriesPer100g": 884,
+      "notes": "Creates harder texture in white chocolate bases",
+      "category": "plant_fat"
+    },
+    {
+      "id": "almond_butter",
+      "name": "Almond Butter",
+      "fatPer100g": 56.0,
+      "proteinPer100g": 21.0,
+      "carbsPer100g": 19.0,
+      "caloriesPer100g": 614,
+      "notes": "Provides gelato-like texture",
+      "category": "nut_butter"
+    },
+    {
+      "id": "peanut_butter",
+      "name": "Peanut Butter",
+      "fatPer100g": 50.0,
+      "proteinPer100g": 25.0,
+      "carbsPer100g": 20.0,
+      "caloriesPer100g": 588,
+      "notes": "Natural only recommended - provides fat and protein",
+      "category": "nut_butter"
+    },
+    {
+      "id": "pistachio_butter",
+      "name": "Pistachio Butter",
+      "fatPer100g": 45.0,
+      "proteinPer100g": 20.0,
+      "carbsPer100g": 28.0,
+      "caloriesPer100g": 560,
+      "notes": "Premium gelato ingredient - up to 7% fat contribution",
+      "category": "nut_butter"
+    },
+    {
+      "id": "hazelnut_butter",
+      "name": "Hazelnut Butter",
+      "fatPer100g": 61.0,
+      "proteinPer100g": 15.0,
+      "carbsPer100g": 17.0,
+      "caloriesPer100g": 628,
+      "notes": "High fat content - use measured amounts",
+      "category": "nut_butter"
+    }
+  ],
+  "guidelines": {
+    "safeZone": "10-15% total fat",
+    "dangerZone": "Above 16% - high buttering risk",
+    "butteringPrevention": [
+      "Keep total fat 10-15%",
+      "NEVER use 100% heavy cream",
+      "Dilute cream with milk (1:1 or 1:1.5 ratio)",
+      "Limit to 1 spin + 1 re-spin maximum"
+    ]
+  }
+}

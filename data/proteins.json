@@ -1,0 +1,83 @@
+{
+  "proteins": [
+    {
+      "id": "whey_casein_blend",
+      "name": "Whey/Casein Blend Protein",
+      "proteinPer100g": 80.0,
+      "fatPer100g": 3.5,
+      "carbsPer100g": 6.0,
+      "caloriesPer100g": 390,
+      "waterBinding": "good",
+      "thickening": "medium",
+      "notes": "OPTIMAL for Creami - combines fast absorption with structure",
+      "category": "powder",
+      "recommendedBrands": ["PEScience", "Quest"]
+    },
+    {
+      "id": "casein_protein",
+      "name": "Casein Protein",
+      "proteinPer100g": 85.0,
+      "fatPer100g": 1.5,
+      "carbsPer100g": 4.0,
+      "caloriesPer100g": 370,
+      "waterBinding": "excellent",
+      "thickening": "high",
+      "notes": "Best for texture - thickens upon hydration, acts as natural stabilizer",
+      "category": "powder"
+    },
+    {
+      "id": "whey_isolate",
+      "name": "Whey Protein Isolate",
+      "proteinPer100g": 90.0,
+      "fatPer100g": 1.0,
+      "carbsPer100g": 2.0,
+      "caloriesPer100g": 380,
+      "waterBinding": "poor",
+      "thickening": "low",
+      "notes": "NOT recommended alone - creates watery, thin texture",
+      "category": "powder"
+    },
+    {
+      "id": "skim_milk_powder",
+      "name": "Skim Milk Powder",
+      "proteinPer100g": 36.0,
+      "fatPer100g": 1.0,
+      "carbsPer100g": 52.0,
+      "caloriesPer100g": 362,
+      "waterBinding": "good",
+      "thickening": "medium",
+      "notes": "Boosts MSNF - neutral flavor, improves texture without fat",
+      "category": "powder"
+    },
+    {
+      "id": "whole_milk_powder",
+      "name": "Whole Milk Powder",
+      "proteinPer100g": 26.0,
+      "fatPer100g": 27.0,
+      "carbsPer100g": 38.0,
+      "caloriesPer100g": 496,
+      "waterBinding": "good",
+      "thickening": "medium",
+      "notes": "Can impart weird taste - skim powder preferred",
+      "category": "powder"
+    },
+    {
+      "id": "collagen_peptides",
+      "name": "Collagen Peptides",
+      "proteinPer100g": 90.0,
+      "fatPer100g": 0,
+      "carbsPer100g": 0,
+      "caloriesPer100g": 360,
+      "waterBinding": "moderate",
+      "thickening": "low",
+      "notes": "Adds protein without much structural benefit",
+      "category": "powder"
+    }
+  ],
+  "guidelines": {
+    "standardPint16oz": "~30g (1 scoop) baseline",
+    "deluxePint24oz": "40-60g optimal range",
+    "denaturingTemp": "85°C (185°F) - dramatically increases viscosity",
+    "chalkyTextureFix": "Use Lite Ice Cream mode + add liquid before re-spin"
+  }
+}

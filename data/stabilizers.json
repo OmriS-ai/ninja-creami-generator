@@ -1,0 +1,117 @@
+{
+  "stabilizers": [
+    {
+      "id": "xanthan_gum",
+      "name": "Xanthan Gum",
+      "activation": "cold",
+      "activationTemp": null,
+      "texture": "shear-thinning, risk of slimy if overused",
+      "dosagePerPintMin": 0.25,
+      "dosagePerPintMax": 0.5,
+      "dosageUnit": "g",
+      "bestFor": ["sorbets", "lite bases", "acidic recipes"],
+      "acidResistant": true,
+      "notes": "Essential for low-fat recipes - dry blend with sugar to prevent fish eyes",
+      "category": "gum"
+    },
+    {
+      "id": "guar_gum",
+      "name": "Guar Gum",
+      "activation": "cold",
+      "activationTemp": null,
+      "texture": "creamy, mimics fat well",
+      "dosagePerPintMin": 0.25,
+      "dosagePerPintMax": 0.5,
+      "dosageUnit": "g",
+      "bestFor": ["dairy bases"],
+      "acidResistant": false,
+      "notes": "NOT acid-resistant - avoid citrus/pineapple sorbets",
+      "category": "gum"
+    },
+    {
+      "id": "locust_bean_gum",
+      "name": "Locust Bean Gum (LBG)",
+      "activation": "hot",
+      "activationTemp": 80,
+      "texture": "smooth, premium feel, excellent ice crystal suppression",
+      "dosagePerPintMin": 0.3,
+      "dosagePerPintMax": 0.5,
+      "dosageUnit": "g",
+      "bestFor": ["gelato", "custards", "cooked bases"],
+      "acidResistant": true,
+      "notes": "Requires heat to activate - cannot cold process",
+      "category": "gum"
+    },
+    {
+      "id": "tara_gum",
+      "name": "Tara Gum",
+      "activation": "hot",
+      "activationTemp": 75,
+      "texture": "clean flavor, smooth",
+      "dosagePerPintMin": 0.3,
+      "dosagePerPintMax": 0.5,
+      "dosageUnit": "g",
+      "bestFor": ["premium recipes"],
+      "acidResistant": true,
+      "notes": "Premium alternative to guar/xanthan blends",
+      "category": "gum"
+    },
+    {
+      "id": "gelatin",
+      "name": "Gelatin (Unflavored)",
+      "activation": "hot",
+      "activationTemp": 50,
+      "texture": "smooth, warm mouthfeel",
+      "dosagePerPintMin": 2.0,
+      "dosagePerPintMax": 4.0,
+      "dosageUnit": "g",
+      "bestFor": ["clean label recipes"],
+      "acidResistant": false,
+      "notes": "Clean label option - thickens without muting flavors",
+      "category": "other"
+    },
+    {
+      "id": "instant_pudding_mix",
+      "name": "Instant Pudding Mix (Sugar-Free)",
+      "activation": "cold",
+      "activationTemp": null,
+      "texture": "smooth, pre-formulated stabilizer system",
+      "dosagePerPintMin": 7.0,
+      "dosagePerPintMax": 10.0,
+      "dosageUnit": "g",
+      "bestFor": ["lite recipes", "protein recipes", "beginners"],
+      "acidResistant": false,
+      "notes": "Contains modified corn starch + gums - high sodium warning",
+      "category": "mix"
+    },
+    {
+      "id": "inulin",
+      "name": "Inulin (Chicory Root Fiber)",
+      "activation": "cold",
+      "activationTemp": null,
+      "texture": "bulking agent, fat replacer",
+      "dosagePerPintMin": 10.0,
+      "dosagePerPintMax": 20.0,
+      "dosageUnit": "g",
+      "bestFor": ["plant-based", "low-fat recipes"],
+      "acidResistant": true,
+      "notes": "Displaces water, improves body in low-fat recipes",
+      "category": "fiber"
+    }
+  ],
+  "synergies": {
+    "guarXanthan": {
+      "ratio": "3:1 or 4:1",
+      "effect": "Superior viscosity - greater than sum of parts"
+    },
+    "guarLBG": {
+      "ratio": "1:1",
+      "effect": "Viscosity + excellent ice crystal suppression"
+    }
+  },
+  "fishEyesPrevention": [
+    "Dry blend gum with granular sugar BEFORE adding liquid",
+    "Use immersion blender if clumps form"
+  ],
+  "overuseSymptoms": "Gummy, slimy, snotty texture - reduce to <0.5g per pint"
+}
