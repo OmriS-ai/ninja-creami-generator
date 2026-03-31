@@ -1,26 +1,23 @@
 # Ninja Creami Deluxe Recipe Generator
 
-Interactive web-based recipe generator for the Ninja Creami Deluxe NC501 with real-time formulation feedback.
+Interactive recipe builder for the Ninja Creami Deluxe NC501 with real-time formulation feedback, save/load recipes, and AI-powered recipe generation.
+
+**Live:** https://omris-ai.github.io/ninja-creami-generator
 
 ## Features
 
-- **Recipe Type Selection**: Ice Cream, Lite/Protein, Gelato, Sorbet, Keto, Vegan
-- **Comprehensive Ingredient Database**: Liquids, sweeteners, fats, proteins, stabilizers
-- **Real-time Calculations**:
-  - Fat percentage (with buttering warnings)
-  - Sugar percentage
-  - Protein percentage
-  - Total solids (creaminess indicator)
-  - Freezing Point Depression (FPD/PAC)
-  - Calories per serving
-- **Smart Warnings**: Alerts for dangerous formulations
-- **Program Recommendations**: Suggests optimal Creami program based on recipe
+- **Recipe Type Selection**: Ice Cream, Lite/Protein, Gelato, Sorbet, Frozen Yogurt, Keto, Vegan
+- **Comprehensive Ingredient Database**: 50+ ingredients across liquids, sweeteners, fats, proteins, and stabilizers
+- **Real-time Calculations**: Fat %, sugar %, protein %, total solids, FPD, calories per serving
+- **Smart Warnings**: Alerts for buttering risk, icy texture, capacity overflow
+- **Program Recommendations**: Suggests optimal Creami program based on composition
+- **Save & Load Recipes**: Persist recipes in localStorage with JSON export/import
+- **AI Recipe Generation**: Generate recipes via Claude API (bring your own key)
+- **Mobile-First Design**: Responsive, touch-friendly UI
 
-## Measurements
+## Tech Stack
 
-All ingredients use metric measurements:
-- **Grams (g)** for all solid and liquid ingredients
-- **Milliliters (ml)** for volume reference
+React 19 · TypeScript · Vite 6 · Tailwind CSS v4 · Zustand
 
 ## Target Ranges
 
@@ -35,24 +32,22 @@ All ingredients use metric measurements:
 
 - **Fat > 16%**: High buttering risk
 - **Solids < 31%**: Icy texture likely
-- **Gums > 0.5g/pint**: Slimy texture
 - **Volume > 709ml**: Exceeds tub capacity
-
-## Usage
-
-1. Select your recipe type
-2. Add ingredients from each category
-3. Adjust amounts using the input fields
-4. Monitor the real-time metrics
-5. Follow the recommended program
 
 ## Local Development
 
-Simply open `index.html` in a web browser - no build process required.
+```bash
+npm install
+npm run dev
+```
 
-## Deployment
+## Build & Deploy
 
-Hosted on GitHub Pages at: https://omris-ai.github.io/ninja-creami-generator
+```bash
+npm run build
+```
+
+Deployed automatically to GitHub Pages via GitHub Actions on push to `main`.
 
 ## Based On
 
